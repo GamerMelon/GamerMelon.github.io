@@ -35,6 +35,31 @@ and make #logs wider*/
         grid-row: 4/5;
     }
 }
+@media only screen and (max-width: 499px){
+    #plant {
+        background-color: blue;
+        grid-column: 1/4;
+        grid-row: 1/4;
+    }
+    
+    #logs {
+        background-color: red;
+        grid-column: 4/6;
+        grid-row: 1/4;
+    }
+    
+    #project {
+        background-color: green;
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+    
+    #todo {
+        background-color: grey;
+        grid-column: 4/6;
+        grid-row: 4/5;
+    }
+}
 @media screen and (min-width: 500px){
 
     #plant {
