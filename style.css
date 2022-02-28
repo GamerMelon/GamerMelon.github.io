@@ -8,12 +8,6 @@
 /*ability to hide the project description
 and make #logs wider*/
 @media screen and (max-width: 499px){
-	.wrapper{
-		display: grid;
-        gap: 5px;
-		grid-template-columns: repeat(5, 1 fr);
-		grid-auto-rows: minmax(100px, auto);
-	}
     #plant {
         background-color: blue;
         grid-column: 1/4;
@@ -39,6 +33,7 @@ and make #logs wider*/
     }
 }
 @media screen and (min-width: 500px){
+
     #plant {
         background-color: blue;
         grid-column: 1/4;
