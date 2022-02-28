@@ -2,6 +2,9 @@ function initButtons(){
     $("#add_log").on("click", function(){
         console.log("log added");
     });
+    //put logs and project into same div to
+    //avoid the problem
+    //see joel about this one \/\/\/\/\/\/
     $("#hide_this").on("click", function(){
         $('#project').hide();
         document.getElementById("#logs").style.gridColumn =  "4/6";
