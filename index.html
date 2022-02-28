@@ -2,9 +2,50 @@
 <html lang="en">
 <head>
    <meta charset="utf-8">
-   <title>My Title</title>
+   <title>Live Plant</title>
+   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>egg</h1>
+<body class="wrapper">
+    <section id=plant></section>
+    <section id=logs>
+        <article>
+            <h3>Logs</h3>
+            <p id=log_dump>list of logs here</p>
+        </article>
+        <button id=add_log>Add Log</button>
+    </section>
+    <section id=project>
+        <article>
+            <h3>Project Description</h3>
+            <p>Description of project here</p>
+            <button id=hide_this>Hide</button>
+        </article>
+    </section>
+    <section id=todo>
+        <article>
+            <h3>To Do</h3>
+            <p id=todo_dump>list of chores here</p>
+            <button id=add_job>Add Job</button>
+            <button id=minus_job>Complete Job</button><!--has to have job selected-->
+        </article>
+    </section>
 </body>
 </html>
+
+<!----
+--for TODO section to add a chore
+<label for="emailBody">Message:<br>
+    <textarea name="emailBody" id="emailBody" cols="20" rows="5"
+        placeholder="Type your message here...">
+    </textarea>
+</label>
+
+--for maybe having to deal with ard to website (go to where it is being hosted)
+<iframe width="893" height="502" 
+        src="https://www.youtube.com/embed/wJWksPWDKOc" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+    </iframe>
