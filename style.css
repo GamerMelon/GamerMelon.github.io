@@ -7,7 +7,8 @@
 }
 /*ability to hide the project description
 and make #logs wider*/
-@media screen and (max-width: 499px){
+@media only screen and (max-width: 480px) 
+    and (-webkit-min-device-pixel-ratio: 2){
     #plant {
         background-color: blue;
         grid-column: 1/4;
