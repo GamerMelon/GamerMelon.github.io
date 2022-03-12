@@ -18,6 +18,7 @@ function initButtons(){
 }
     $(document).ready(function(){
         initButtons();
+        populateLogs();
     });
 
     function populateLogs(){
@@ -29,8 +30,10 @@ function initButtons(){
                 let str = "<ul>";
                 //let button = `<option value=${varStr}>${name}</option>`;//making the first option, not sure if varStr works here
                 for (let obj of data){
-                    let time = obj["Time"];//get the specific field from the object
+                    let time = obj["Time"];
+                    console.log(time);
                     let log = obj["Log"];
+                    console.log(log);
                     let concat = `<li>At: ${time}<br>${log}</li>`
                     str.push(concat);
                     //curr = curr.toUpperCase();//uppercase for no duplicates
@@ -44,9 +47,10 @@ function initButtons(){
                 //    button += `<option value=${str[i]}>${str[i]}</option>`;
                 //}
                 str.push("</ul>");
+                console.log(str);
                 $(`#log_dump`).html(str);
                 //$(`#${place}`).html(button);//add the options to the specified select box
             }
         });
     };
-    populateLogs();
+    
