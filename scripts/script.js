@@ -27,7 +27,7 @@ function initButtons(){
             url:'log_data.php',
             dataType:'jsonp',
             success:(data) => {
-                console.log(test2);
+                console.log("test2");
                 //let str=[varStr];//so first option will be the default value, will be signal for no filter later
                 let str = "<ul>";
                 //let button = `<option value=${varStr}>${name}</option>`;//making the first option, not sure if varStr works here
