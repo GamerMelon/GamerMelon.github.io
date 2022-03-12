@@ -24,7 +24,7 @@ function initButtons(){
     function populateLogs(){
         console.log("test");
         $.ajax({
-            url:'log_data.php',
+            url:'../log_data.php',
             dataType:'jsonp',
             success:(data) => {
                 console.log("test2");
