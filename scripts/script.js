@@ -22,6 +22,7 @@ function initButtons(){
     });
 
     function populateLogs(){
+        console.log("test");
         $.ajax({
             url:'log_data.php',
             dataType:'jsonp',
