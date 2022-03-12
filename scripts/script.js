@@ -52,6 +52,10 @@ function initButtons(){
                 console.log(str);
                 $(`#log_dump`).html(str);
                 //$(`#${place}`).html(button);//add the options to the specified select box
+            },
+            error: function (ajaxContext){
+                console.log("fail");
+                console.log(ajaxContext);
             }
         });
     };
