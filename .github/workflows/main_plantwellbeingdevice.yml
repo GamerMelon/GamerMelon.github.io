@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'PlantWellbeingDevice'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_439FE068D05A4679B9110F5F5D84DFD5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2EF354197C874261BA424EA27F83B657 }}
           package: .
